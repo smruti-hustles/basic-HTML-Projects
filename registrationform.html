@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 style="font-size: 40px;">Student Registration Form</h1>
+    <form style="font-size: 20px;">
+        <label for="Name">Name : </label>
+        <input type="text" name="Name">
+        <br>
+        <br>
+        <label for="Father's Name">Father's Name :</label>
+        <input type="text" name="Father's Name">
+        <br><br>
+        <label for="Mother's Name">Mother's Name :</label>
+        <input type="text" name="Mother's Name">
+        <br><br>
+        <label for="ph">Ph No :</label>
+        <input type="tel" name="ph">
+        <br><br>
+        <label for="Email">Email :</label>
+        <input type="email" name="Email">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob">
+        <br><br>
+        <label for="file">resume :</label>
+        <input type="file" name="file">
+        <br><br>
+        <label for="counter">Work Experience :</label>
+        <input type="number" name="counter" min="0" max="50">
+        <br><br>
+        <fieldset>
+           <legend>Gender :</legend>
+        <label for="radio1">Male</label>
+        <input type="radio" name="radio1">
+        <label for="radio2">Female</label>
+        <input type="radio" name="radio2">
+        <label for="radio3">Others</label>
+        <input type="radio" name="radio3">
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Occupation :</legend>
+            <select name="occupation" id="occupation">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Freelancer">Freelancer</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Topics of interest:</legend>
+            <label for="checkbox1">Web Development</label>
+        <input type="checkbox" name="checkbox1">
+        <label for="checkbox2">App Development</label>
+        <input type="checkbox" name="checkbox2">
+        <label for="checkbox3">Data Science</label>
+        <input type="checkbox" name="checkbox3">
+        <label for="checkbox4">AI/ML</label>
+        <input type="checkbox" name="checkbox4">
+        
+        </fieldset>
+        <fieldset>
+            <legend>Queries :</legend>
+            <textarea name="textarea" id="t" cols="50" rows="10"></textarea>
+        </fieldset>
+        <button>Subbmit</button>
+        
+    </form>
+</body>
+</html>
