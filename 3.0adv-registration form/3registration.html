@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RREGISTRATION FORM</title>
+    <style>
+        body{
+            background-image: url('can2.png');
+            background-size: cover;
+            color: white;
+        }
+    </style>
+</head>
+<body align="center" style="font-size: larger;">
+  
+    <header>
+        <h1>RREGISTRATION FORM</h1>
+    </header>
+    <div align="center">
+    <form action="">
+       <table align="center" >
+           <tr>
+            <td> <label for="Name">Full Name : </label></td>
+            <td> <input type="text" name="Name"></td>
+           
+           </tr>
+
+           <tr>
+            <td><label for="ph">Ph No :</label></td>
+            <td> <input type="tel" name="ph"></td>
+           </tr>
+           <tr>
+            <td>  <label for="Email">Email :</label></td>
+            <td> <input type="email" name="Email"></td>
+           </tr>
+            <tr>
+                <td> <label for="dob">DOB</label></td>
+                <td> <input type="date" name="dob"></td>
+            </tr>
+            
+            <tr>
+                <td> <label for="counter">Work Experience :</label></td>
+                <td><input type="number" name="counter" min="0" max="50"></td>
+            </tr>
+            
+       </table>
+       <br>
+       
+         
+
+       <fieldset align="center">
+        <legend>Gender :</legend>
+     <label for="radio1">Male</label>
+     <input type="radio" name="radio1">
+     <label for="radio1">Female</label>
+     <input type="radio" name="radio1">
+     <label for="radio1">Others</label>
+     <input type="radio" name="radio1">
+     
+     </fieldset>
+<br>
+     <fieldset align="center">
+        <legend>Occupation :</legend>
+        <select name="occupation" id="occupation">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Freelancer">Freelancer</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset align="center">
+        <legend>Topics of interest:</legend>
+        <label for="checkbox1">Web Development</label>
+    <input type="checkbox" name="checkbox1">
+    <label for="checkbox2">App Development</label>
+    <input type="checkbox" name="checkbox2">
+    <label for="checkbox3">Data Science</label>
+    <input type="checkbox" name="checkbox3">
+    <label for="checkbox4">AI/ML</label>
+    <input type="checkbox" name="checkbox4">
+    
+    </fieldset align="center">
+    <br>
+    <fieldset  align="center">
+        <legend>Queries :</legend>
+        <textarea name="textarea" id="t" cols="50" rows="10"></textarea>
+    </fieldset>
+    <br>
+    <label for="file"> Upload resume :</label>
+    <input type="file" name="file">
+<br>
+<br>
+    <button align="center">SUBMIT</button>
+    </form>
+</div>
+</body>
+</html>
